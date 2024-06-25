@@ -1,14 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  webpack: (config, { isServer }) => {
-    if (!isServer) {
-      config.resolve.fallback = {
-        ...config.resolve.fallback,
-        fs: false, // Jika masalah terkait fs, tambahkan baris ini
-      };
-    }
-    return config;
-  },
-};
+import withPWAInit from "@ducanh2912/next-pwa";
 
-export default nextConfig;
+const withPWA = withPWAInit({
+  dest: "public",
+});
+
+export default withPWA;
