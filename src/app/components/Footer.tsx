@@ -4,7 +4,7 @@ import { FaCopyright } from "react-icons/fa";
 
 function Footer() {
   return (
-    <div className="text-center p-5 flex items-center justify-center gap-3 text-white bg-gradient-to-r from-emerald-800 to-sky-800">
+    <div className="text-center p-5 flex items-center justify-center gap-2 text-white bg-gradient-to-r from-emerald-800 to-sky-800">
       <FaCopyright /> 2024 by{" "}
       <Link
         href={"https://www.linkedin.com/in/dodi-dev"}
