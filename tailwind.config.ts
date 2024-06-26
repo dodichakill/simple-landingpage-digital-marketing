@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "hero-pattern": "url('/images/pattern.jpg')",
+        "hero-pattern": "url('/images/pattern.webp')",
       },
     },
   },

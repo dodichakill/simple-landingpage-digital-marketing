@@ -23,6 +23,7 @@ const Carousel = () => {
       <div className="flex items-center justify-center">
         <button
           onClick={prevSlide}
+          aria-label="previous slide"
           className="p-1 md:p-2 lg:p-3 mr-3 rounded-full font-semibold text-xl bg-sky-600 text-white cursor-pointer hover:bg-sky-700 transition active:bg-sky-800"
         >
           <FaChevronLeft />
@@ -36,6 +37,7 @@ const Carousel = () => {
         </div>
         <button
           onClick={nextSlide}
+          aria-label="next slide"
           className="p-1 md:p-2 lg:p-3 ml-3 rounded-full font-semibold text-xl bg-sky-600 text-white cursor-pointer hover:bg-sky-700 transition active:bg-sky-800"
         >
           <FaChevronRight />

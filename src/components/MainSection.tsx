@@ -71,9 +71,9 @@ function MainSection() {
 
           {/* Message */}
           <div className="p-5 w-full bg-white rounded-lg">
-            <h3 className="font-semibold text-2xl text-center mb-2">
+            <h2 className="font-semibold text-lg md:text-2xl lg:text-3xl text-center mb-2">
               Hubungi Kami
-            </h3>
+            </h2>
             <p className="text-sm mb-5 text-center text-slate-500">
               Tanyakan Apapun tentang kami
             </p>

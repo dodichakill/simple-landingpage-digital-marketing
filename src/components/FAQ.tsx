@@ -7,9 +7,9 @@ function FAQ() {
   return (
     <section className="bg-white">
       <div className="container max-w-4xl p-3 mx-auto">
-        <h1 className="text-2xl font-semibold text-center text-gray-800 lg:text-3xl">
+        <h2 className="text-2xl font-semibold text-center text-gray-800 lg:text-3xl">
           Pertanyaan Yang Sering Ditanyakan
-        </h1>
+        </h2>
         <p className="text-sm text-slate-600 mt-3 text-center">
           Berikut beberapa pertanyaan yang sering ditanyakan tentang kami
         </p>
@@ -23,8 +23,11 @@ function FAQ() {
               <button
                 onClick={() => setActiveIndex(item.id)}
                 className="flex items-center justify-between w-full p-8"
+                aria-label="toggle faq"
               >
-                <h1 className="font-semibold text-gray-700">{item.title}</h1>
+                <h1 className="font-semibold md:text-left text-gray-700">
+                  {item.title}
+                </h1>
 
                 {activeIndex === item.id ? (
                   <span className="text-gray-400 bg-gray-200 rounded-full">

@@ -11,7 +11,7 @@ function HeroSection() {
         <div className="w-full bg-white md:p-10 rounded-lg flex flex-col-reverse md:flex-row items-center md:my-10 md:gap-5 md:justify-between">
           <div className="w-full md:h-[20rem] bg-white p-5 rounded-lg">
             <p className="text-sm">
-              Hi, Selamat Datang di{" "}
+              Hi, Selamat Datang di
               <span className="font-semibold underline underline-offset-1">
                 Xoss-camp
               </span>
@@ -31,11 +31,12 @@ function HeroSection() {
           </div>
           <div className="w-full flex md:h-[20rem] rounded-lg">
             <Image
-              src={"/images/hero.png"}
+              src={"/images/hero.webp"}
               alt="hero-img"
               className="w-full rounded-lg h-full object-cover object-center md:p-5 overflow-hidden m-auto"
               width={300}
               height={150}
+              priority={true}
             />
           </div>
         </div>
