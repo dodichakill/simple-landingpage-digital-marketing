@@ -11,9 +11,9 @@ function HeroSection() {
         <div className="w-full bg-white md:p-10 rounded-lg flex flex-col-reverse md:flex-row items-center md:my-10 md:gap-5 md:justify-between">
           <div className="w-full md:h-[20rem] bg-white p-5 rounded-lg">
             <p className="text-sm">
-              Hi, Selamat Datang di
+              Hi, Selamat Datang di{" "}
               <span className="font-semibold underline underline-offset-1">
-                Xoss-camp
+                Xoss-Camp
               </span>
             </p>
             <h1 className="text-xl md:text-2xl lg:text-4xl font-semibold lg:leading-[3rem] my-3">
