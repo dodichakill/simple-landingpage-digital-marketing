@@ -2,6 +2,7 @@ import React from "react";
 import Container from "./Container";
 import Image from "next/image";
 import { IoIosRocket } from "react-icons/io";
+import Button from "./Button";
 
 function HeroSection() {
   return (
@@ -16,20 +17,17 @@ function HeroSection() {
               </span>
             </p>
             <h1 className="text-xl md:text-2xl lg:text-4xl font-semibold lg:leading-[3rem] my-3">
-              A Digital Marketing Job Guarantee Bootcamp
+              Sebuah Bootcamp Digital Marketing Terbaik
             </h1>
-            <p className="text-sm md:text-base">
+            <p className="text-sm md:text-base text-slate-600">
               Daftar ke pelatihan digital marketing Xoss-Camp yang memberikan
               jaminan pekerjaan. Dapatkan keterampilan yang diperlukan untuk
               memulai karir sukses di dunia digital marketing.
             </p>
-            <button
-              type="button"
-              className="focus:outline-none mt-5 flex items-center text-white bg-sky-700 hover:bg-sky-800 focus:ring-4 focus:ring-sky-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 "
-            >
-              <IoIosRocket className="me-2" />
-              Daftar Sekarang
-            </button>
+            <Button
+              icon={<IoIosRocket className="me-2" />}
+              text="Daftar Sekarang"
+            />
           </div>
           <div className="w-full flex md:h-[20rem] rounded-lg">
             <Image

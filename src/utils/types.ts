@@ -12,3 +12,17 @@ export type Testimony = {
 export type Containers = {
   children: JSX.Element | JSX.Element[];
 };
+
+export type Input = {
+  text: string;
+  type: string;
+};
+
+export type Textarea = {
+  text: string;
+};
+
+export type ButtonType = {
+  text: string;
+  icon: JSX.Element;
+};
